@@ -12,8 +12,8 @@ import (
 )
 
 func WhatwgAggregator() {
-	name := "WHATWG"
-	long := "Web Hypertext Application Technology Working Group"
+	// name := "WHATWG"
+	// long := "Web Hypertext Application Technology Working Group"
 
 	var md strings.Builder
 	md.WriteString("# WhatWG\n\n")

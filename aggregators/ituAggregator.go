@@ -12,8 +12,8 @@ import (
 )
 
 func ituAggregator() {
-	name := "ITU"
-	long := "International Telecommunication Union"
+	// name := "ITU"
+	// long := "International Telecommunication Union"
 
 	var md strings.Builder
 	md.WriteString("# ITU Standards\n\n")

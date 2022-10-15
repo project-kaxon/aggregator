@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-	name := "IETF"
-	long := "Internet Engineering Task Force"
+	// name := "IETF"
+	// long := "Internet Engineering Task Force"
 
 	var md strings.Builder
 	md.WriteString("# IETF Standards\n\n")

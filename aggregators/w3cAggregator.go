@@ -14,8 +14,8 @@ import (
 // NOTE: DOES NOT INCLUDE SUPERSEDED STANDARDS TODO
 
 func w3cAggregator() {
-	name := "W3C"
-	long := "World Wide Web Consortium"
+	// name := "W3C"
+	// long := "World Wide Web Consortium"
 
 	url := "https://www.w3.org/TR"
 	var md strings.Builder
