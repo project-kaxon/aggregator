@@ -2,14 +2,21 @@
 
 task.init() {
 	go get ...
+}
 
+task.build() {
+	# TODO: Remove this eventually
+	go build -o './output/build/bin/aggregator' .
+
+	mkdir -p './build' .
+	go build -o './build/aggregator' .
 }
 
 task.release-nightly() {
 	mkdir -p './output/build/bin'
 
 	# Build
-	go build -o './output/build/bin/aggregator' .
+	task.build
 	tar -C './output' -czf './output/build.tar.gz' './build'
 
 	util.publish './output/build.tar.gz'
